@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.footer p {
+  float: left;
+  padding: 0 10px;
+  font-size: 11px;
+}
+p a {
+  text-decoration: none;
+  color: white;
+}
+input::placeholder{
+  color: #999;
+  padding: 5px;
+}
+@keyframes backgroundAnimation {
+  0% {
+    background-image: url("images/img1.jpeg");
+  }
+  50% {
+    background-image: url("images/img2.jpeg");
+  }
+  100% {
+    background-image: url("images/img3.jpeg");
+  }
+}
+
+.element-with-animated-background {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  animation: backgroundAnimation 7s infinite;
+  background-repeat: no-repeat;
+  color: white;
+}
