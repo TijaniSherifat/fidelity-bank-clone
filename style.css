@@ -100,3 +100,16 @@ input::placeholder{
   cursor: pointer;
   color: #002082;
 } 
+.forgot-password {
+  text-align: right;
+  font-size: 14px;
+  color: #002082;
+}
+.registration-links p{
+  color: #002082;
+  font-size: 14px;
+}
+.registration-links p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
