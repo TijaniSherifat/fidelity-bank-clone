@@ -35,3 +35,28 @@ input::placeholder{
   background-repeat: no-repeat;
   color: white;
 }
+.store-image {
+  position: absolute;
+  top: 45px;
+  left: 20px;
+}
+.footer {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  /* z-index: 20; */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: absolute;
+  right: 40px;
+  width: 30%;
+  margin-top: 100px;
+}
+.bank-logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
